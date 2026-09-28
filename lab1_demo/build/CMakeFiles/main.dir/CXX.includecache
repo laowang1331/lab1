@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wanghanzhi/robot_project/lab1_demo/main.cpp
+iostream
+-
+my_lib.hpp
+/home/wanghanzhi/robot_project/lab1_demo/my_lib.hpp
+
